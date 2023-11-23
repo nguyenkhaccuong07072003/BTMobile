@@ -23,7 +23,7 @@ const HomeScreen = ({ navigation }) => {
                         <Text style={{ fontSize: 22, fontWeight: "700" }}>
                             Hello
                         </Text>{" "}
-                        👋🏻 TueProLayer
+                        👋🏻 Christie Doe
                     </Text>
                     <Image
                         source={require("../assets/image/user1.png")}

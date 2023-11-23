@@ -1,7 +1,6 @@
 import {
     View,
     Text,
-    SafeAreaView,
     TouchableOpacity,
     Image,
     Dimensions,
@@ -14,13 +13,13 @@ const windowHeight = Dimensions.get("window").height;
 
 const PaymentScreen = ({navigation}) => {
     return (
-        <SafeAreaView>
+        <View>
             <View>
                 <View
                     style={{
-                        height: 253,
+                        height: 250,
                         paddingHorizontal: 20,
-                        elevation: 20,
+                        elevation: 1,
                         shadowColor: "#171717",
                         borderBottomEndRadius: 30,
                         borderBottomLeftRadius: 30,
@@ -38,6 +37,7 @@ const PaymentScreen = ({navigation}) => {
                             borderRadius: 9,
                             justifyContent: "center",
                             alignItems: "center",
+                            marginTop:10,
                         }}
                         onPress={() => navigation.goBack()}
                     >
@@ -259,7 +259,7 @@ const PaymentScreen = ({navigation}) => {
                     Pay for the order
                 </Text>
             </Pressable>
-        </SafeAreaView>
+        </View>
     );
 };
 

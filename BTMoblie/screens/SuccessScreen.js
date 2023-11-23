@@ -13,6 +13,7 @@ const SuccessScreen = ({navigation}) => {
         <SafeAreaView style={{ marginHorizontal: 20 }}>
             <TouchableOpacity
                 style={{
+                    marginTop:20,
                     width: 44,
                     height: 44,
                     backgroundColor: "#f8f8fb",
